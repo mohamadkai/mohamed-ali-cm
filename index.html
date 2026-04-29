@@ -34,5 +34,25 @@ src="https://www.facebook.com/tr?id=2019837482249368&ev=PageView&noscript=1"
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+  document.addEventListener("click", function (event) {
+    const target = event.target.closest("a, button");
+
+    if (!target) return;
+
+    const text = target.innerText || target.textContent || "";
+    const href = target.getAttribute("href") || "";
+
+    const isBookingClick =
+      text.includes("ابدأ دلوقتي") ||
+      text.includes("احجز") ||
+      href.includes("wa.me") ||
+      href.includes("whatsapp");
+
+    if (isBookingClick && typeof fbq === "function") {
+      fbq("track", "Lead");
+    }
+  });
+</script>
   </body>
 </html>
