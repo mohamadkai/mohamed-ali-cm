@@ -1,4 +1,3 @@
-import ResultsProof from "@/components/landing/ResultsProof";
 import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/landing/Nav";
 import { Hero } from "@/components/landing/Hero";
