@@ -30,7 +30,6 @@ function Index() {
         <Bonuses />
         <Pricing />
         <Transformation />
-        <ResultsProof />
         <Guarantee />
         <FAQ />
         <FinalCTA />
