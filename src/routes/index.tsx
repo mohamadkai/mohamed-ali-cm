@@ -1,3 +1,4 @@
+import ResultsProof from "@/components/landing/ResultsProof";
 import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/landing/Nav";
 import { Hero } from "@/components/landing/Hero";
@@ -12,7 +13,6 @@ import { Guarantee } from "@/components/landing/Guarantee";
 import { FAQ } from "@/components/landing/FAQ";
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { Footer } from "@/components/landing/Footer";
-import ResultsProof from "@/components/landing/ResultsProof";
 export const Route = createFileRoute("/")({
   component: Index,
 });
@@ -31,7 +31,7 @@ function Index() {
         <Bonuses />
         <Pricing />
         <Transformation />
-<ResultsProof />
+        <ResultsProof />
         <Guarantee />
         <FAQ />
         <FinalCTA />
