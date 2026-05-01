@@ -12,7 +12,7 @@ import { Guarantee } from "@/components/landing/Guarantee";
 import { FAQ } from "@/components/landing/FAQ";
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { Footer } from "@/components/landing/Footer";
-
+import ResultsProof from "@/components/landing/ResultsProof";
 export const Route = createFileRoute("/")({
   component: Index,
 });
@@ -30,6 +30,8 @@ function Index() {
         <MarketDemand />
         <Bonuses />
         <Pricing />
+        <Transformation />
+<ResultsProof />
         <Guarantee />
         <FAQ />
         <FinalCTA />
