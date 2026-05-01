@@ -11,6 +11,10 @@ const results = [
     image: "/results/result-3.png",
     title: "شغل يثبت إنك فاهم",
   },
+  {
+    image: "/results/result-4.png",
+    title: "نتيجة حقيقية من السوق",
+  },
 ];
 
 export default function ResultsProof() {
