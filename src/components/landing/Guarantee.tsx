@@ -102,8 +102,9 @@ export function Guarantee() {
             </div>
 
             <p className="relative mb-4 text-base leading-relaxed text-foreground/90 md:text-lg">
-              &quot;أنا مش بقدّملك كورس… أنا بقدّملك وعد. لو مشيت معايا بجد في الـ 14 سيشن، هتطلع
-              بنسخة مختلفة تمامًا من نفسك. ولو مش هيحصل ده، أنا أول واحد هيرجعلك فلوسك.&quot;
+              &quot;أنا مش بقدّملك كورس… أنا بقدّملك وعد لو مشيت معايا بجد في الـ 14 سيشن خلال تلت شهور ، هتخرج منهم ببورتفوليو يثبت للسوق إنك جاهز
+وتعرف تعرض نفسك بثقة على أي عميل أو شركة 
+               ولو مش هيحصل ده، أنا هرجعلك فلوسك.&quot;
             </p>
 
             <div className="mt-5 flex items-center gap-3 border-t border-border pt-5">
