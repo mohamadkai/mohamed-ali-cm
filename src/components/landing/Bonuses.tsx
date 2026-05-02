@@ -35,13 +35,14 @@ const bonuses = [
     value: "900",
   },
   {
+ {
   n: "06",
-  value: "1500 جنيه",
-  title: "Private Growth Session (لأول 10 أشخاص فقط)",
+  title: 'Private Growth Session <span class="text-sm" style="color:#e8fb00">(لأول 10 أشخاص فقط)</span>',
   desc:
     "سيشن فردية خاصة بعد المنتور شيب لمدة 40 دقيقة نراجع فيها تطورك وشغلك ونحدد لك الخطوة الجاية بناءً على مستواك .",
   encouragement:
     " هتخرج من المينتور شيب عارف أنت واقف فين وناقصك إيه والخطوة الجاية ليك .",
+     value: "1500",
 },
 ];
 
