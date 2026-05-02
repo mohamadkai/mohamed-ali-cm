@@ -89,8 +89,6 @@ export function Bonuses() {
           ))}
 
       <div className="matte-surface rounded-2xl p-7 bg-gradient-to-bl from-neon-lime/10 to-neon-cyan/10 border-neon-lime/40 flex flex-col justify-center">
-
-            <div className="text-muted-foreground text-sm">جنيه مصري — بونصات حصرية لأول 10 أشخاص</div>
           </div>
         </div>
       </div>
