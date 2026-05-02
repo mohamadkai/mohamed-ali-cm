@@ -37,7 +37,7 @@ const bonuses = [
   {
  {
   n: "06",
-  title: "Private Growth Session (لأول 10 أشخاص فقط)",
+  title: "Private Growth Session",
   desc:
     "سيشن فردية خاصة بعد المنتور شيب لمدة 40 دقيقة نراجع فيها تطورك وشغلك ونحدد لك الخطوة الجاية بناءً على مستواك .",
   encouragement:
