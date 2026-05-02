@@ -27,8 +27,9 @@ export function Hero() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black leading-[1.4] md:leading-[1.5] text-balance tracking-normal">
-              مشكلتك مش إنك مش بتعرف{" "}
-              <span className="text-gradient-lime-cyan">تكتب</span>…
+              ابدأ رحلتك ككاتب محتوى
+جاهز لأول عميل خلال{" "}
+              <span className="text-gradient-lime-cyan">14 أسبوع</span>…
             </h1>
 
             <div className="relative pr-6 md:pr-8">
