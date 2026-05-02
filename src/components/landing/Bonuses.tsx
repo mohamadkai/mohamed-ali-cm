@@ -88,8 +88,7 @@ export function Bonuses() {
             </div>
           ))}
 
-      <div className="matte-surface rounded-2xl p-7 bg-gradient-to-bl from-neon-lime/10 to-neon-cyan/10 border-neon-lime/40 flex flex-col justify-center">
-          </div>
+     
         </div>
       </div>
     </section>
