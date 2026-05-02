@@ -35,15 +35,17 @@ export function Hero() {
             <div className="relative pr-6 md:pr-8">
               <div className="absolute right-0 top-2 bottom-2 w-1 bg-neon-lime rounded-full" />
               <p className="text-lg md:text-2xl font-light text-muted-foreground leading-[2] max-w-[42ch]">
-                مشكلتك إنك لسه متدرّبتش على شغل حقيقي، ومش بتفكر كـ{" "}
-                <span className="text-foreground font-bold">Marketer</span>.
+                مشكلتك مش في الكتابة
+مشكلتك إنك لسه مش عارف تبيع شغلك كـ {" "}
+                <span className="text-foreground font-bold"> Content Marketer</span>.
               </p>
             </div>
 
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed max-w-[60ch]">
-              برنامج لايف عملي ينقلك من مرحلة "بكتب بوستات وخلاص" إلى شخص فاهم التسويق،
-              يطبق على مشاريع حقيقية، يحلل الجمهور، يبني Content Strategy، ويطلع من البرنامج
-              بـ Portfolio وخطة Career واضحة تؤهله لسوق العمل.
+              مينتور شيب عملي يساعدك تبني Portfolio
+وتتعلم إزاي تحلل الجمهور
+وتكتب محتوى يخدم البراند
+وتبدأ طريقك لأول عميل خلال 14 أسبوع
             </p>
 
             <div className="flex flex-wrap gap-3">
