@@ -60,21 +60,6 @@ export function Bonuses() {
             مش هتتفرّج وتنسى… كل بونص هيحط في إيدك سلاح جاهز تشتغل بيه من أول يوم وتقفل صفقات حقيقية.
           </p>
         </div>
-{/* Total Bonus Value Banner */}
-<div className="matte-surface rounded-2xl p-8 md:p-10 mb-8 bg-gradient-to-bl from-neon-lime/10 to-neon-cyan/10 border-neon-lime/40 flex flex-col md:flex-row items-center justify-between gap-6">
-  <div className="text-center md:text-right">
-    <div className="text-[10px] font-mono-tech uppercase tracking-widest text-neon-lime mb-2">
-      Total Bonus Value
-    </div>
-    <div className="text-muted-foreground text-sm">
-      جنيه مصري — بونصات حصرية لأول دفعة
-    </div>
-  </div>
-  <div className="text-5xl md:text-6xl font-black font-mono-tech text-gradient-lime-cyan">
-    13,200
-  </div>
-</div>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {bonuses.map((b) => (
             <div
