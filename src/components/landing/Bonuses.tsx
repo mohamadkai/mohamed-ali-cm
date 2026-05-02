@@ -37,7 +37,7 @@ const bonuses = [
   {
   n: "06",
   value: "1500 جنيه",
-  title: "Private Growth Session",
+  title: "Private Growth Session (لأول 10 أشخاص فقط)",
   desc:
     "سيشن فردية خاصة بعد المنتور شيب لمدة 40 دقيقة نراجع فيها تطورك وشغلك ونحدد لك الخطوة الجاية بناءً على مستواك .",
   encouragement:
@@ -54,7 +54,7 @@ export function Bonuses() {
             / Bonus Stack — First Cohort Only
           </span>
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-black leading-[1.6] md:leading-[1.5] text-balance max-w-[24ch] mx-auto mb-8">
-            5 بونصات تساعدك تطلع <span className="text-gradient-lime-cyan">بنتيجة</span><br className="hidden md:block" /> مش مجرد حضور
+           6 بونصات تساعدك تطلع <span className="text-gradient-lime-cyan">بنتيجة</span><br className="hidden md:block" /> مش مجرد حضور
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             مش هتتفرّج وتنسى… كل بونص هيحط في إيدك سلاح جاهز تشتغل بيه من أول يوم وتقفل صفقات حقيقية.
@@ -89,17 +89,21 @@ export function Bonuses() {
             </div>
           ))}
 
-          <div className="matte-surface rounded-2xl p-7 bg-gradient-to-bl from-neon-lime/10 to-neon-cyan/10 border-neon-lime/40 flex flex-col justify-center">
-            <div className="text-[10px] font-mono-tech uppercase tracking-widest text-neon-lime mb-3">
-              Total Bonus Value
-            </div>
-            <div className="text-5xl font-black font-mono-tech text-gradient-lime-cyan mb-2">
-              11,700
-            </div>
-            <div className="text-muted-foreground text-sm">جنيه مصري — بونصات حصرية لأول 10 أشخاص</div>
-          </div>
-        </div>
-      </div>
+         <div className="md:col-span-3">
+  <div className="matte-surface rounded-2xl p-8 md:p-10 bg-gradient-to-bl from-neon-lime/10 to-neon-cyan/10 border-neon-lime/40 text-center">
+    <div className="text-[10px] font-mono-tech uppercase tracking-widest text-neon-lime mb-4">
+      Total Bonus Value
+    </div>
+
+    <div className="text-6xl md:text-7xl font-black font-mono-tech text-gradient-lime-cyan mb-3">
+      13,200
+    </div>
+
+    <div className="text-muted-foreground text-base md:text-lg">
+      جنيه مصري — بونصات حصرية لأول 10 أشخاص
+    </div>
+  </div>
+</div>
     </section>
   );
 }
