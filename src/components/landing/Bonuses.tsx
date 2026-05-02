@@ -89,8 +89,8 @@ export function Bonuses() {
             </div>
           ))}
 
-         <div className="md:col-span-3">
-  <div className="matte-surface rounded-2xl p-8 md:p-10 bg-gradient-to-bl from-neon-lime/10 to-neon-cyan/10 border-neon-lime/40 text-center">
+        <div className="md:col-span-3 flex justify-center">
+  <div className="matte-surface w-full max-w-2xl rounded-2xl p-8 md:p-10 bg-gradient-to-bl from-neon-lime/10 to-neon-cyan/10 border-neon-lime/40 text-center">
     <div className="text-[10px] font-mono-tech uppercase tracking-widest text-neon-lime mb-4">
       Total Bonus Value
     </div>
