@@ -89,21 +89,17 @@ export function Bonuses() {
             </div>
           ))}
 
-       <div className="md:col-span-3 flex justify-center">
-  <div className="matte-surface w-full max-w-2xl rounded-2xl p-8 md:p-10 bg-gradient-to-bl from-neon-lime/10 to-neon-cyan/10 border-neon-lime/40 text-center">
-    <div className="text-[10px] font-mono-tech uppercase tracking-widest text-neon-lime mb-4">
-      Total Bonus Value
-    </div>
-
-    <div className="text-6xl md:text-7xl font-black font-mono-tech text-gradient-lime-cyan mb-3">
-      13,200
-    </div>
-
-    <div className="text-muted-foreground text-base md:text-lg">
-      جنيه مصري — بونصات حصرية لأول 10 أشخاص
-    </div>
-  </div>
-</div>
+        <div className="matte-surface rounded-2xl p-7 bg-gradient-to-bl from-neon-lime/10 to-neon-cyan/10 border-neon-lime/40 flex flex-col justify-center">
+            <div className="text-[10px] font-mono-tech uppercase tracking-widest text-neon-lime mb-3">
+              Total Bonus Value
+            </div>
+            <div className="text-5xl font-black font-mono-tech text-gradient-lime-cyan mb-2">
+              13,200
+            </div>
+            <div className="text-muted-foreground text-sm">جنيه مصري — بونصات حصرية لأول 10 أشخاص</div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }
