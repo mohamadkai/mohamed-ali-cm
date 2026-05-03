@@ -6,7 +6,7 @@ export function Nav() {
           <div className="size-4 bg-background rounded-full" />
         </div>
         <span className="font-black text-xl md:text-2xl tracking-tighter uppercase font-mono-tech">
-          MENTOR<span className="text-neon-lime">/</span>LAB
+         Mind <span className="text-neon-lime"></span>pilot
         </span>
       </div>
       <div className="hidden lg:flex items-center gap-8 text-sm font-medium text-muted-foreground">
