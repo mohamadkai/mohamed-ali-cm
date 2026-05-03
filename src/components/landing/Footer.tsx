@@ -34,7 +34,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-muted-foreground font-mono-tech">
-          <span>© {new Date().getFullYear()} MENTOR/LAB — All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Mind/pilot — All rights reserved.</span>
         </div>
       </div>
     </footer>
