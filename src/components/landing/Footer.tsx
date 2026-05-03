@@ -9,7 +9,7 @@ export function Footer() {
                 <div className="size-4 bg-background rounded-full" />
               </div>
               <span className="font-black text-xl tracking-tighter uppercase font-mono-tech">
-                MENTOR<span className="text-neon-lime">/</span>LAB
+                Mind<span className="text-neon-lime">/</span>pilot
               </span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
